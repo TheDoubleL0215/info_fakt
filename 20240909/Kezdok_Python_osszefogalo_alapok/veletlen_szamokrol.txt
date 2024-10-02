@@ -1,0 +1,10 @@
+Véletlen egész szám előállítása
+Véletlen szám előállításához be kell írni a  forráskódba a következő sort:
+import random
+Ezt leginkább a  forráskód elejére szoktuk írni - bár lehet később is
+Ez még nem állít elő véletlen számot, csak beimportáljuk az ehhez szükséges függvényeket
+A véletlenszám intervallumát mindig megadjuk, hogy mégis mekkora véletlen számra lesz szükségünk.
+
+szam = random.randint(1,6)
+
+A fenti sor pl. egy véletlenszámot fog generálni 1-6 között, pont mintha dobnánk egy kockával. 

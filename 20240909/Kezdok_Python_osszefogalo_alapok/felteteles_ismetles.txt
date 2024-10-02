@@ -1,0 +1,15 @@
+Van, hogy ismételni kell egy tevékenységet, lépéssorozatot, de nem tudjuk előre, hogy hány alkalommal, nem tőlünk függ, hanem egy esemény bekövetkezésétől. Pl. dobj addig, míg nem lesz hatos. Honnan  tudnánk előre, mikor lesz hatos?
+
+ilyenkor használjuk a while .... szerkezetet. 
+Ez azt jelenti, ismételd, amíg.....és jön a feltétel, majd  az ismétlendő lépéssorozat.
+
+Pl.: dobj addig, míg nem lesz hatos
+
+szam = random.randint(1,6)
+print(szam)
+while szam!=6:
+	szam = random.randint(1,6)
+	print(szam)
+
+Először is dobunk egyet, azt mindenféleképpen meg kell tenni, ez van a 8. sorban, majd kiírjuk,  hogy lássuk mit dobtunk.
+A 10. sorban azt mondjuk, hogy amíg a szám nem egyenlő != 6, addig újra dobunk (mármint előállítunk véletlen számot)

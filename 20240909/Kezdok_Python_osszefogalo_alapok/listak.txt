@@ -1,0 +1,26 @@
+Listák
+A listák olyan összetett adatszerkezetek, melyek több adatot is tudnak tárolni. Pl: szavakat, számokat. A listának nevet adunk, majd tetszőleges mennyiségben pakolhatunk bele adatot.
+üres lista létrehozása:
+szinek =[]
+Ennek elemszáma: 0	--> hossz = len(szinek)
+elemet beletenni az append függvénnyel
+szinek.append("piros")
+szinek.append("fehér")
+Ilyenkor mindig a végére, utolsóként fűzi hozzá, mert az append tulajdonképpen hozzáfűzést jelent.
+Első elem: szinek[0]
+Második elem: szinek[1]
+Utolsó elem: szinek[-1]
+
+Ha adott helyre szeretnénk elemet beszúrni, akkor nem az append, hanem az insert függvény lesz a  jó, mert ezzel azt is meg tudjuk adni, hová szeretnénk tenni.
+szinek.insert(1,"sárga")
+
+Listán végigmenni kétféleképpen lehet.
+Simán egyszerűen végig lehet menni a for ciklussal:
+for elem  in szinek:
+	ide kerül, hogy mit szeretnénk az egyes elemmel
+	
+Ebben az esetben nem tudjuk, hogy a  soron következő elemnek mi az indexe, nem tudjuk a helyét meghatározni.
+
+Másik eset ha indexet használva megyünk végig a listán, és [ ] jelet használunk indexeléshezs: 
+for i in range(len(szinek)):
+	szinek[i] lesz az egyes elem megszólítása

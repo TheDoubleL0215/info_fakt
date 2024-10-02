@@ -1,0 +1,28 @@
+Elágazás
+
+Alapesetben az utasítások egymás után hajtódnak végbe. Az utasításokat a sor elejére kell írni, és egy sorba mindig csak 1 utasítás lehet.
+Ha szeretnénk bizonyos feltételtől függővé tenni a  további lépéseket, akkor belerakunk egy feltételt, egy vizsgálatot, elágazást.
+
+ez lesz az if .... else szerkezet
+
+pl. egy számról eldönti, hogy páros vagy páratlan
+
+if szam%2==0:
+	print("Páros")
+else:
+	print("Páratlan")
+
+FONTOS!!!!
+dupla egyenlőségjel == vizsgálatot jelent, olyan, mintha eldöntendő kérdésre válaszolna
+A vizsgálat után kötelező : (kettőspont)
+else ág - különben (egyébként) else után már nincs vizsgálat, nem is lehet, de kettőspont kötelező.
+
+
+Többágú elágazásnál 
+if....
+
+elif ....
+
+elif.....
+
+else:

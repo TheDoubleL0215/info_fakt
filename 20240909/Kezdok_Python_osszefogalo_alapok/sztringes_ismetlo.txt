@@ -1,0 +1,41 @@
+Sztring - karaktersor -karakterekeből áll (egy, vagy több)
+Nulla karakterből áll az 'üres' sztring : "" vagy ''
+
+A sztring hossza lekérdezhető : len(szoveg)
+Ezt néha jó tudni, ha ellenőrizni kell, vagy egyesével végigmenni rajta, tudni kell hol a vége, meddig menjünk.
+
+Első karakter [0] indexű, a többi innen számolva.
+Utolsó karater [-1] indexű
+
+Adott karaterre vagy szórészletre lehet keresni az index függvénnyel.
+Pl
+szo= "almafa"
+
+Kíváncsiak vagyunk, hol van benne 'm' betű.
+hol= szo.index("m")
+
+Ez most a kettőt fogja visszaadni, mert a második indexű helyen van az "m" karakter. Viszont ha nincs benne sehol, akkor hibát ad, így ezt csak akkor használhatjuk, ha biztosak vagyunk benne, hogy találunk benne olyat, vagy már előzőleg megnéztük, és igen választ kaptunk.
+
+pl: 
+if "m" in szo:
+	hol=szo.index("m")
+	print(hol)
+else:
+	print("Nincs is benne olyan karakter")
+	
+végigmenni  a sztringen 2 féle képpen lehet (ahogyan a listán is):
+
+for i in szo: -> itt elejétől végig végiglépked, de indexelés nincs.
+	itt lehet vizsgálni az i karaktert
+
+másik változat, hogy az indexet használjuk a lépkedéshez
+
+for i in range(len(szo)): -> ilyenkor elejétől végig végiglépked az adott indexű karatereken
+	szo[i]-dik karaktert tudjuk vizsgálni
+
+szeletelés: - nagyon hasznos dolog
+Egy adott részletet tudunk kiemelni a szövegből, ezért hívják szeletelésnek
+
+szo[2:]
+szo[3:]
+szo[2:4]

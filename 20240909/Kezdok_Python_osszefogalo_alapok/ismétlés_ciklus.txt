@@ -1,0 +1,22 @@
+Ciklus = ismétlés = iteráció
+Ha egy programrészletet, lépésorozatot többször szeretnénk megismételni
+
+Két fajtája van:
+- ha tudjuk, hogy pontosan hányszor szeretnénk a lépésorozatot megismételni....
+- ha feltételtől függ, hogy kívánjuk-e még tovább ismételni
+
+1) ha tudjuk a pontos darabszámot:
+
+for i in range(5):
+	ide kerül, amit ismételni szeretnénk, jelen esetben ötször - ilyenkor a  számláló alapból 0-tól indul, 4-ig megy (az az ötöt számol le)
+
+Megjegyés: az 'i' változó bármi más nevet is kaphat, ez csak egy megszokás, hogy a számláló sok prog nyelvben 'i'
+
+for i in range (5,20):
+	print(i," ")
+
+Megjegyzés: ilyenkor a számláló 5-től indul, 19-ig megy egyesével, ezt ki is lehet íratni, ha a  számláló 'i' értékét íratjuk ki.
+
+A print utasítás mindig egymás alá írja  a kiírandókat. Ha szeretnénk egymás mellé, vagy más elválasztó jellel, akkor
+print('Ezt írd ki', end=" ")
+

@@ -1,0 +1,4 @@
+sulipy.hu - Python programozás
+https://kozep.sulipy.hu/bevezeto - középszintű digitális kultúra feladatok, gyakorlók
+https://www.oktatas.hu/kozneveles/erettsegi/2023tavaszi_vizsgaidoszak/2023tavasz_kozismereti_targyak#digitkult6
+http://informatika.fazekas.hu/erettsegi/kozepszintu-feladatok/

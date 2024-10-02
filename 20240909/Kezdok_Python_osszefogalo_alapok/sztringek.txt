@@ -1,0 +1,16 @@
+A sztringek karaktersorozatot jelentenek. Ez lehet egy karakter, lehet több.
+pl. szin ="piros"
+A sztringeket idézőjel " " , vagy aposztróf ' ' között használjuk. A Pythont mindkettőt egyformán elfogadja.
+Ha egy int típusú számból valamiért sztringeket akarunk alakítani, akkor pl.: str(10). Ilyenkor 2 karakterből álló sztringet fogunk kapni.
+A sztingek karaktereit sorban meg el tudjuk érni, az indexük használatával. Az index mindig nullával kezdődik, és [ ] -zárójelben van.
+Például: 
+print(szin[0]) --> a 'p'-t fogja kiírni,mert az az első karaktere
+print(szin[3]) -->  az 'o' betűt fogja kiírni.
+print(szin[-1]) --> az utolsó betűt fogja kiírni. 
+A sztring hossza lekérdezhető a len() függvénnyel. pl: hossz = len(szin) --> 5-öt fog adni, mert a szin változóban lévő sztring 5 karakter hosszú.
+
+Elejétől végig lehet menni a sztringen - sokszor van rá szükség - a for ciklussal:
+	for betu in szin: 
+		print(betu)
+Próbáld ki, ez végighalad betűnként a sztringen, annélkül,, hogy tudnánk a hosszát. 
+Fontos! Sztring betűit nem lehet átírni, megváltoztatni, ahhoz új sztringbe kell átpalkolni. 

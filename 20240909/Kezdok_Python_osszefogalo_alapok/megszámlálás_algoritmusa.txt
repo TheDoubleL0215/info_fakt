@@ -1,0 +1,6 @@
+Ha valamilyen dolgot meg akarunk számolni - pl hány pozitív szám van- akkor ahhoz bevezetünk egy változót, ami nulla értékről indul. Pl. db = 0
+Elkezdjük a számlálást. Ha találunk olyan dolgot, amit meg kell számolni, akkor annak a változónak az értékét eggyle növeljük.
+db = db +1
+
+vagy rövidebben: 
+db += 1 		# így is szokás használni
